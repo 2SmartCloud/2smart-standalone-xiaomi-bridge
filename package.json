@@ -1,0 +1,16 @@
+{
+    "name": "xiaomi-gateway-bridge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "node-red": "^0.20.8"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js --userDir lib",
+        "config": "node lib/bin/create_flow.js"
+    },
+    "author": "2Smart"
+}
